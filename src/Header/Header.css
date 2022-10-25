@@ -1,0 +1,24 @@
+.top-nav{
+    display: flex;
+    justify-content: flex-end;
+    background: black;
+}
+
+.top-nav a{
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 2px;
+    margin-left: 4px;
+    font-size: small;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+}
+.menu-ind-item a{
+    display: flex;
+    
+}
