@@ -17,8 +17,28 @@
 .menu-items {
     display: flex;
     flex-direction: row;
+    background-color: rgb(36, 34, 34);
 }
-.menu-ind-item a{
+.menu-ind-item{
     display: flex;
-    
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu-ind-item a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 45px;
+    padding-left: 20px;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+}
+
+.logo img{
+width: 15%;
+height: 15%;
+
 }
