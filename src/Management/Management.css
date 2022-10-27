@@ -1,0 +1,36 @@
+.manage{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    background: whitesmoke;
+}
+
+.manage-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-bottom: 10px solid gray;
+    border-radius: 5px;
+}
+
+.manage-team img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.team-pix{
+    border: 10px solid gray;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.title{
+    color: #007bff;
+}

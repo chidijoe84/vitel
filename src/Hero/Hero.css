@@ -1,4 +1,7 @@
 .main-hero{
+    background-image: url(../assets/hero3.png);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
     margin-top: 0;
     z-index: 0;
 }
@@ -25,6 +28,36 @@ h1 {
    
   }
 
+  h2{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 5%;
+  }
+
+  .gsm{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 5%;
+    color: #0099ff;
+  }
+
+.info{
+  font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 5%;
+    color: #0099ff;
+    width: 40%;
+}
+
   .circle{
     background: linear-gradient(45deg, #f3ec78, #af4261);
     position: absolute;
@@ -50,7 +83,7 @@ h1 {
     
     position: absolute;
     margin-top: -80px;
-    margin-left: 45%;
+    margin-left: 47%;
     height: 42rem;
     width: 62rem;
 
