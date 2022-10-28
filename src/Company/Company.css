@@ -5,21 +5,44 @@
     margin-top: -20%;
 }
 
+.text-head{
+    color: #010305;
+}
 
 .company-text{
+    /* background-image: url(../assets/footer.png); */
+    height: 70%;
+    color: #22465e;;
     width: 30%;
     margin-left: 70px;
-    border: 2px solid whitesmoke;
+    border-bottom: 20px solid #bcc1c5;
+    border-radius: 10px;
     line-height: 2;
     padding: 20px;
     text-align: justify;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255);
+    
 }
+
+.company-text h1, hr{
+    text-align: center;
+}
+
+.company-text hr{
+    width: 100%;
+    margin-left: -1%;
+}
+
+.company-text span{
+    color: goldenrod;
+}
+
+
 
 .btn{
     background: #0099ff;
     width: 100px;
-    height: 50px;
+    height: 30px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -30,11 +53,6 @@
 
 }
 
-
-hr{
-    margin-left: 20px;
-}
-
 .section2{
     width: 65%;
     padding: 20px;
@@ -43,7 +61,8 @@ hr{
 .section3{
     display: flex;
     width: 60%;
-    border: 2px solid whitesmoke;
+    border-bottom: 20px solid #bcc1c5;
+    border-radius: 10px;
     padding: 20px;
     margin-left: 100px;
     margin-bottom: 30px;
