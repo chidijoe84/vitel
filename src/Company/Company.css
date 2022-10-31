@@ -1,8 +1,36 @@
-.company{
+/* .company::before{
+    content: '';
+    position: absolute;
+    margin-top: -145%;
+    width: 100%;
+    height: 200px;
+    background: white;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    
+  } */
+ .company{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    margin-top: -20%;
+    
+    background-image: url(../assets/backimg.png);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+}
+
+.com{
+    border-radius: 1% 99% 26% 74% / 49% 25% 75% 51% ;
+    background: linear-gradient(225deg, gold 0%, #030302 100%);
+    height: 460px;
+    width: 460px;
+    position: absolute;
+  
+    margin-right: 300px;
+    margin-top: -55px;
+    opacity: 0.6;
+}
+.section{
+    margin-top: 3%;
 }
 
 .text-head{
@@ -13,33 +41,47 @@
     /* background-image: url(../assets/footer.png); */
     height: 70%;
     color: #22465e;;
-    width: 30%;
-    margin-left: 70px;
+    width: 70%;
+    margin-left: 300px;
     border-bottom: 20px solid #bcc1c5;
     border-radius: 10px;
     line-height: 2;
-    padding: 20px;
+    padding: 50px;
     text-align: justify;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255);
     
 }
 
-.company-text h1, hr{
-    text-align: center;
+.company-text p{
+    line-height: 2;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.company-text hr{
+.company-text img{
     width: 100%;
-    margin-left: -1%;
+    height: 800px;
 }
 
-.company-text span{
+.text-head{
+    text-align: center;
+    margin-top: -20px;
+    justify-content: center;
+    
+}
+
+.text-head hr{
+    width: 10%;
+   /* margin-left: 800px; */
+}
+
+.text-head span{
     color: goldenrod;
 }
 
 
 
-.btn{
+/* .btn{
     background: #0099ff;
     width: 100px;
     height: 30px;
@@ -51,36 +93,73 @@
     padding: 10px;
     color: #fff;
 
-}
+} */
 
 .section2{
-    width: 65%;
-    padding: 20px;
-}
-
-.section3{
+    width: 100%;
+   z-index: 0;
+    background-image: url(../assets/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
     display: flex;
-    width: 60%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.prod{
+    text-align: center;
+}
+.prod span{
+    color: #0099ff;
+}
+.svm{
+    width: 20%;
+    height: 50%;
+    margin-bottom: 0;
+    margin-top: -2%;
+    margin-left: 80px;
+    position: absolute;
+    background: radial-gradient(circle at top,  #0099ff , #030302);
+    
+}
+.section3{
+    width: 20%;
+    height: 600px;
+    border: none;
     border-bottom: 20px solid #bcc1c5;
     border-radius: 10px;
-    padding: 20px;
-    margin-left: 100px;
+    z-index: 0;
+    margin: 30px;
     margin-bottom: 30px;
-    border-radius: 10px;
+    
+    
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255);
-    z-index: 100;
+    
 }
 
 .section3 img{
-    width: 15%;
-    height: 15%;
-    border-radius: 20%;
-    margin: 30px;
+    width: 100%;
+    height: 50%;
+
+    border-radius: 10px;
+    z-index: 0;
 }
 
-.mid{
-    margin-left: 200px;
+.section3 p{
+    line-height: 1.5;
+    color: rgb(197, 176, 176);
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 0;
 }
-.last{
-    margin-left: 300px;
+.bolb{
+    border-radius: 100% 0% 22% 78% / 46% 2% 98% 54% ;
+    height: 460px;
+    width: 460px;
+    background: radial-gradient(circle at top,  #0099ff , #030302);
+    margin-top: 50%;
+    position: absolute;
+    margin-left: 75%;
+
+   
 }
+
