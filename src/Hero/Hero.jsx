@@ -11,9 +11,9 @@ const Hero = () => {
         </p>
        
       </div>
-      <div className='side-img'>
+      {/* <div className='side-img'>
         <img src={connect} alt='connect' className='connect'/>
-      </div>
+      </div> */}
       <div className='hero-text'>
         <h1 className='text'>VITEL <br/>WIRELESS LIMITED</h1>
        <h2> <p>UNIFYING COMMUNICATION USING </p></h2>

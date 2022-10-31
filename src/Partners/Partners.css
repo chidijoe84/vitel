@@ -6,7 +6,7 @@
 }
 .head{
     text-align: center;
-    margin-bottom: 80px;
+ margin-right: 10px;
 }
 
 hr{
@@ -17,6 +17,9 @@ hr{
 .main-content{
     display: flex;
     justify-content: space-evenly;
+    
+    margin-top: -100px;
+    height: 50%;
 }
 
 .our{
