@@ -8,36 +8,38 @@
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
     
   } */
- .company{
+.company {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+
     background-image: url(../assets/backimg.png);
     background-size: cover;
     background-repeat: no-repeat, repeat;
+    margin-top: 50px;
 }
 
-.com{
-    border-radius: 1% 99% 26% 74% / 49% 25% 75% 51% ;
-    background: radial-gradient(circle at top,  #0099ff , #030302);
+.com {
+    border-radius: 1% 99% 26% 74% / 49% 25% 75% 51%;
+    background: radial-gradient(circle at top, #0099ff, #030302);
     height: 460px;
     width: 460px;
     position: absolute;
-  
+
     margin-right: 300px;
     margin-top: -55px;
     opacity: 0.6;
 }
-.section{
+
+.section {
     margin-top: 3%;
 }
 
-.text-head{
+.text-head {
     color: #010305;
 }
 
-.company-text{
+.company-text {
     /* background-image: url(../assets/footer.png); */
     display: flex;
     flex-direction: row;
@@ -46,16 +48,13 @@
     margin-bottom: 50px;
     width: 70%;
     margin-left: 300px;
-    ;
     border-radius: 10px;
     line-height: 2;
-   
+
     text-align: justify;
-   
-    
 }
 
-.company-text2{
+.company-text2 {
     display: flex;
     flex-direction: row;
     height: 70%;
@@ -63,61 +62,57 @@
     margin-bottom: 50px;
     width: 70%;
     margin-left: 300px;
-   
+
     border-radius: 10px;
     line-height: 2;
-   
+
     text-align: justify;
-   
 }
 
-.company-text p{
+.company-text p {
     line-height: 2;
     font-size: 1.2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     margin: 30px;
     border-left: 4px solid #0099ff;
-   
+
     padding-left: 20px;
 }
 
-.company-text2 p{
+.company-text2 p {
     line-height: 2;
     font-size: 1.2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     margin: 30px;
     border-right: 4px solid #0099ff;
-   
+
     padding-right: 20px;
 }
 
-.company-text2 img{
+.company-text2 img {
     width: 50%;
     height: auto;
 }
 
-.company-text img{
+.company-text img {
     width: 50%;
     height: auto;
 }
 
-.text-head{
+.text-head {
     text-align: center;
     margin-top: -20px;
     justify-content: center;
-    
 }
 
-.text-head hr{
+.text-head hr {
     width: 10%;
-   /* margin-left: 800px; */
+    /* margin-left: 800px; */
 }
 
-.text-head span{
+.text-head span {
     color: goldenrod;
 }
-
-
 
 /* .btn{
     background: #0099ff;
@@ -133,9 +128,9 @@
 
 } */
 
-.section2{
+.section2 {
     width: 100%;
-   z-index: 0;
+    z-index: 0;
     background-image: url(../assets/checked.png);
     background-color: #4eb3f7;
     opacity: 0.7;
@@ -145,23 +140,26 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.prod{
+
+.prod {
     text-align: center;
 }
-.prod span{
+
+.prod span {
     color: #0099ff;
 }
-.svm{
+
+.svm {
     width: 20%;
     height: 50%;
     margin-bottom: 0;
     margin-top: -2%;
     margin-left: 80px;
     position: absolute;
-    background: radial-gradient(circle at top,  #0099ff , #030302);
-    
+    background: radial-gradient(circle at top, #0099ff, #030302);
 }
-.section3{
+
+.section3 {
     width: 20%;
     height: 600px;
     border: none;
@@ -170,13 +168,13 @@
     z-index: 0;
     margin: 30px;
     margin-bottom: 30px;
-    background: #010305;
-    
+    background: #000000;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255);
-    
 }
 
-.section3 img{
+.section3:hover {}
+
+.section3 img {
     width: 100%;
     height: 50%;
 
@@ -184,29 +182,103 @@
     z-index: 0;
 }
 
-.section3 p{
+.section3 p {
     line-height: 1.5;
     color: rgb(197, 176, 176);
     font-size: 1.2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     z-index: 0;
     margin: 20px;
 }
 
-.section3 h3{
+.section3 h3 {
     color: #0099ff;
     margin: 20px;
 }
-.bolb{
-    border-radius: 100% 0% 22% 78% / 46% 2% 98% 54% ;
+
+.bolb {
+    border-radius: 100% 0% 22% 78% / 46% 2% 98% 54%;
     height: 460px;
     width: 460px;
-    background: radial-gradient(circle at top,  #0099ff , #030302);
+    background: radial-gradient(circle at top, #030302, #0099ff);
     margin-top: 50%;
     position: absolute;
     margin-left: 75%;
-
-
-   
 }
 
+@media screen and (max-width: 400px) {
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 73%;
+    }
+
+    .text-head {
+        position: absolute;
+        text-align: center;
+        margin-top: -110px;
+        margin-left: 100px;
+        font-size: larger;
+        justify-content: center;
+    }
+    .prod {
+       margin-right: 130px;
+      
+    }
+
+    .section3 {
+       width: 90%;
+       
+       background-color: white;
+    }
+    .section3 p{
+        color: #000000;
+        font-size: 0.8em;
+    }
+
+    .company-text {
+        width: 100%;
+        margin-left: 6px;
+        margin-top: -80px;
+        width: 70%;
+    }
+
+    .company-text p {
+        font-size: 0.7em;
+        padding-right: 0px;
+    }
+
+    .company-text2 {
+        width: 100%;
+        margin-left: 6px;
+        margin-top: -80px;
+        width: 70%;
+      
+    }
+
+    .company-text2 p {
+        font-size: 0.7em;
+        padding-right: 20px;
+    }
+
+    .company-text2 img {
+        display: none;
+    }
+
+    .company-text img {
+        display: none;
+    }
+
+    .com {
+        margin-top: -301px;
+        z-index: 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    .bolb {
+        display: none;
+    }
+}

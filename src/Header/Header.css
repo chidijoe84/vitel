@@ -1,10 +1,10 @@
 .top-nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background: black;
     position: fixed;
     left: 0;
-    right: 0;
+    right: 0%;
     top: 0;
     z-index: 1;
     width: auto;
@@ -21,10 +21,10 @@
     font-size: small;
 }
 
-.menu-items {
+.menu-items{
     display: flex;
     flex-direction: row;
-    background-color: whitesmoke;
+    background-color: black;
     position: fixed;
     left: 0;
     right: 0;
@@ -33,48 +33,153 @@
     width: auto;
   
 }
-.menu-ind-item{
+.menu{
     display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    color: whitesmoke;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 60%;
+    
+    height: 30px;
+   
+  
+    
 }
 
-.menu-ind-item a{
+.menu a{
     text-decoration: none;
     color: rgb(49, 38, 38);
-    margin-top: 45px;
+    display: flex;
+    margin-top: 30px;
     padding-left: 20px;
     position: relative;
 }
 
-.menu-ind-item a::after{
-    content: '';
-    border-radius: 3px solid blue;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(10px);
-    transition: transform 0.3s ease;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.menu-ind-item a:hover::after{
-    opacity: 0;
-    transform: translateY(0);
-    background-color: rgb(3, 27, 19);
-}
-
 .logo{
-    width: 50%;
-    height: 50%;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    
+    
+}
+
+.menu2 a{
+    display: none;
+    font-size: 1.5em;
+    width: 300px;
+    height: 15px;
+    text-decoration: none;
+    color: rgb(49, 38, 38);
+   margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: 30px;
+   
+}
+
+.disp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -546px;
+    background-color: red;
+    height: 20vh;
+    width: 78em;
+}
+
+.menu2 .Hamburger{
+    display: none;
 }
 
 .logo img{
-width: 15%;
-height: 15%;
+width: 70%;
+height: 100%;
+margin-left: 20px;
+
+}
 
 
 
+@media screen and (max-width: 400px) {
+    .top-nav{
+        display: flex;
+        justify-content: center;
+        background: black;
+        position: fixed;
+        left: 0%;
+        right: 100px;
+        top: 0;
+        z-index: 1;
+        width: auto;
+        
+    }
+    .top-nav a{
+        display: flex;
+        justify-content: flex-start;
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 2px;
+        margin-right: 2px;
+        font-size: 8px;
+    }
+    .menu-items{
+        display: flex;
+        flex-direction: row;
+        background-color: whitesmoke;
+        position: fixed;
+        left: 0;
+        right: 100px;
+        top: 15px;
+        z-index: 1;
+        width: auto;
+    }
+
+    .disp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        border-top: 1px solid blue;
+       width: 342px;
+       left: 500px;
+        background-color: whitesmoke;
+     
+    }
+    .disp a{
+        position: absolute;
+        margin-left: 50px;
+    }
+    .menu a{
+       display: none;
+    }
+    .logo{
+        background: whitesmoke;
+        width: 30%;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+       margin-left: 0px;
+      
+    }
+
+     .menu2 a{
+        display: flex;
+        position: relative;
+        font-size: small;
+        top: 0;
+    }
+    .menu2 .Hamburger{
+        display: flex;
+        position: absolute;
+        right: 5%;
+        top: -365%;
+        cursor: pointer;
+    }
+    
+    
 }

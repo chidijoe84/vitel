@@ -11,18 +11,13 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='main-hero' data-aos="zoom-in">
-              {/* <div className='circle'>
-                <p>
-                Get Connected
-          </p> 
-              
-          </div>*/}
+    <div className='main-hero' data-aos="zoom-in" id='hero'>
        <div className='side-img'>
         <Slider/>
       </div> 
+      <div className='hero-bolb' data-aos="slide-right"/>
       <div className='hero-text'>
-        <h1 className='text'>VITEL <span className='wire'>WIRELESS</span> LIMITED</h1>
+        <h1 className='text'>VITEL <span className='edd'>WIRELESS</span> LIMITED</h1>
        <h2> UNIFYING COMMUNICATION USING </h2>
        <p className='gsm'>GSM Numbers + VoIP + IoT + VAS</p>
 

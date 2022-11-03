@@ -22,6 +22,12 @@
     justify-content: space-evenly;
     margin: 40px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.manage-team img:hover{
+    transform: scale(2);
+    cursor: pointer;
 }
 
 .team-pix{
@@ -31,6 +37,35 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
+
+
 .title{
     color: #007bff;
+}
+@media screen and (max-width: 600px) {
+    .manage{
+        width: 74%;
+        
+    }
+    .manage-team{
+        display: grid;
+        grid-template-columns: auto ;
+       
+        width: 100%;
+    }
+    .team-pix{
+       
+        margin-left: 30px;
+       
+    }
+   
+    .manage h1{
+        
+        background-color: whitesmoke;
+        width: 80%;
+    }
+    .manage hr{
+        margin-left: 130px;
+    }
+    
 }

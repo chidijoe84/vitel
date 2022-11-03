@@ -18,10 +18,10 @@ useEffect(()=>{
       <h1>Our <span className='title'>Management </span>Team</h1>
       <hr/>
       <div className='manage-team'>
-     <div className='team-pix'><img src={aisha} alt='management'/></div> 
-      <div className='team-pix'><img src={mfong} alt='management'/></div>
-      <div className='team-pix'><img src={simon} alt='management'/></div>
-      <div className='team-pix'><img src={samson} alt='management'/></div>
+        <div className='team-pix'><img src={aisha} alt='management'/></div> 
+        <div className='team-pix'><img src={mfong} alt='management'/></div>
+        <div className='team-pix'><img src={simon} alt='management'/></div>
+       <div className='team-pix'><img src={samson} alt='management'/></div>
       </div>
     </div>
   )

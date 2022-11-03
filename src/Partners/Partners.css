@@ -1,8 +1,8 @@
 .part{
     /* background-image: url(../assets/footer.png); */
-    background-repeat: no-repeat, repeat;
+    /* background-repeat: no-repeat, repeat;
     background-size: cover;
-    border: none;
+    border: none; */
 }
 .head{
     text-align: center;
@@ -26,14 +26,59 @@ hr{
     color: goldenrod;
 }
 .log{
-    width: 300px;
-    height: 300px
+    width: 200px;
+    height: 200px;
+    margin-top: 110px;
+    transition: transform 0.3s ease;
+}
+
+.log:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .log2{
-    width: 150px;
-    height: 100%;
-   margin-top: 110px;
+    width: 100px;
+    height: 50px;
+   margin-top: 180px;
+}
+
+@media screen and (max-width: 400px) {
+    .main-content{
+        display: grid;
+        grid-template-columns: auto auto ;
+       
+        row-gap: -200px;
+    }
+    .part{
+        padding-right: 160px;
+    }
+    .head{
+        text-align: center;
+     margin-left: 50px;
+    }
+    .log1{
+        margin-top: 65px;
+    }
+    .log2{
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: -60px;
+        
+    }
+    .log3{
+        margin-top: -90px;
+        margin-left: 60px;
+        width: 100px;
+        height: 100px;
+    }
+    .log4{
+        width: 100px;
+        height: 100px;
+        margin-top: 110px;
+    }
+    
 }
 
 /* .image{

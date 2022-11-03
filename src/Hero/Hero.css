@@ -3,8 +3,6 @@
     background-size: cover;
     background-repeat: no-repeat, repeat;
     height: 100vh;
-    
-   
 }
 .hero-text{
   position: absolute;
@@ -13,6 +11,16 @@
   top: 0;
   bottom: 0;
   margin-top: 200px;
+}
+
+.hero-bolb{
+  border-radius:1% 99% 45% 55% / 77% 42% 58% 23%; 
+    height: 460px;
+    width: 460px;
+    background: radial-gradient(circle at top,  #0099ff , #030302);
+    margin-top: 3%;
+    position: absolute;
+    margin-left: -2%;
 }
 
 .text{
@@ -87,6 +95,10 @@ h1 {
     
   }
 
+  .edd{
+    color: goldenrod;
+  }
+
   .span1{
     background: #0099ff;
     padding: 10px 20px;
@@ -139,12 +151,7 @@ h1 {
   
   }
 
-  .circle p{
-    margin-left: 5px;
-    padding: 10px;
-    color: whitesmoke;
-    font-weight: bolder;
-  }
+  
 
   .side-img{
   
@@ -165,3 +172,83 @@ h1 {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(173, 151, 151, 0.2), 0 6px 20px 0 rgba(221, 210, 210, 0.19);
   }
+
+  @media screen and (max-width: 400px) {
+    .hero-bolb{
+      border-radius:1% 99% 45% 55% / 77% 42% 58% 23%; 
+        height: 300px;
+        width: 310px;
+        background: radial-gradient(circle at top,  #0099ff , #030302);
+        margin-top: 3%;
+        position: absolute;
+        margin-left: -2%;
+    }
+    .side-img{
+      margin-left: 0%;
+      margin-top: 245px;
+      width: 75%;
+      height: 100%;
+    }
+    .hero-text{
+      margin-top: 40px;
+    }
+    .main-hero{
+      width: 100%;
+    }
+    h1{
+      font-size: 1.1em;
+      
+    }
+    .text{
+      background-color:#000000;
+  background-image: linear-gradient(45deg, #050b0f,  #e9a20a);
+  background-size: 100%;
+  background-repeat: repeat;
+
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+    }
+    .span1{
+      margin-top: 350px;
+      margin-left: 10px;
+      
+    }
+
+    .span2{
+      margin-top: 350px;
+      margin-left: 130px;
+      
+    }
+    h2{
+      color: #000000;
+      font-size: 0.85em;
+      margin-top: 2px;
+    }
+    .info{
+      width: 90%;
+      color: #000000;
+      font-size: 0.8em;
+      color: white;
+      width: 68%;
+    }
+    .circle2{
+      display: none;
+    }
+    .gsm{
+      color: #000000;
+      font-size: 0.85em;
+      margin-top: 2px;
+    }
+    svg{
+      display: none;
+    }
+
+  .edd{
+      color: goldenrod;
+    }
+
+    
+}
+

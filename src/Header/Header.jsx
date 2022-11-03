@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from '../assets/logo.png'
 import './Header.css';
+import MobileMenu from './MobileMenu';
 
-const Header = () => {
+const Header = ({open}, props) => {
   return (
     <div>
         <div className='top-nav'>
@@ -15,13 +16,14 @@ const Header = () => {
 
         <div className='menu-items'>
             <div className='logo'><img src={logo} alt='logo'/></div>
-            <div className='menu-ind-item'>
-            <a href='$'> PRODUCTS </a>
+          <div className='menu'>
+            <a href='#'> PRODUCTS </a>
             <a href='#'> | SOLUTIONS  </a>
             <a href='#'> | PARTNERS  </a>
             <a href='#'> | COMPANY</a>
-            </div>
+          </div>
 
+          <MobileMenu isMobile={true} closeMobileMenu={props.closeMobileMenu} />
         </div>
     </div>
   )
