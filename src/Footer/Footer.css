@@ -109,7 +109,7 @@
   .site-footer
   {
     padding-bottom:0;
-    width: 75%;
+    width: 100%;
   }
   .text-justify{
     font-size: 0.7em;
@@ -161,7 +161,9 @@
 .social-icons
 {
   padding-left:0;
-  margin-bottom:0;
+  position: absolute;
+  margin-right: 400px;
+  margin-top: -45px;
   list-style:none
 }
 .social-icons li
@@ -181,16 +183,38 @@
   background-color:#eceeef;
   color:#818a91;
   font-size:16px;
-  display:inline-block;
+  display:flex;
+  justify-content: center;
+
   line-height:44px;
   width:44px;
   height:44px;
   text-align:center;
-  margin-right:8px;
+ 
   border-radius:100%;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
   transition:all .2s linear
+}
+
+.social-icons a .insta{
+  margin-left: 0px;
+  margin-top: 4px;
+}
+
+.social-icons a .face{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.social-icons a .twitter{
+  margin-left: 0px;
+  margin-top: 4px;
+}
+
+.social-icons a .you{
+  margin-left: 0px;
+  margin-top: 4px;
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {

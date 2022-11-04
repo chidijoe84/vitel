@@ -14,16 +14,16 @@ const Partners = () => {
     }, []);
   
   return (
-    <div className='part' id='partners' data-aos="zoom-in">
+<div className='part' id='partners' data-aos="zoom-in">
         <div><h1 className='head'><span className='our'>Our</span> Partners <hr/></h1> </div> 
-        <div className='main-content'>
+  <div className='main-content'>
     
      <img src={gistme} alt='gistme' className='log log1'/>
      <img src={ontrac} alt='ontrac tec' className='log log4' />
      <img src={mtn} alt='MTN'  className='log log3'/>
      <img src={ncc} alt='NCC' className='log2'/>
-     </div>
-    </div>
+  </div>
+</div>
    
   )
 }

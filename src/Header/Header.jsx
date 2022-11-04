@@ -17,10 +17,11 @@ const Header = ({open}, props) => {
         <div className='menu-items'>
             <div className='logo'><img src={logo} alt='logo'/></div>
           <div className='menu'>
-            <a href='#'> PRODUCTS </a>
-            <a href='#'> | SOLUTIONS  </a>
-            <a href='#'> | PARTNERS  </a>
-            <a href='#'> | COMPANY</a>
+            <a href='/'>  SOLUTIONS  </a>
+            <a href='/#company'> | PRODUCTS </a>
+            <a href='/#company'> | COMPANY</a>
+            <a href='/#partners'> | PARTNERS  </a>
+            <a href='/#management'> | MANAGEMENT TEAM</a>
           </div>
 
           <MobileMenu isMobile={true} closeMobileMenu={props.closeMobileMenu} />

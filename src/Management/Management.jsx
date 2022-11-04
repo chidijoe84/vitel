@@ -14,7 +14,7 @@ useEffect(()=>{
 }, []);
 
   return (
-    <div className='manage' data-aos="fade-up">
+    <div className='manage' id='management' data-aos="fade-up">
       <h1>Our <span className='title'>Management </span>Team</h1>
       <hr/>
       <div className='manage-team'>

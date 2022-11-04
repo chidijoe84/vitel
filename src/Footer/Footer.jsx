@@ -1,4 +1,5 @@
 import React from "react";
+import {FaYoutube, FaTwitter, FaFacebook, FaInstagramSquare} from 'react-icons/fa';
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -74,24 +75,28 @@ const Footer = () => {
 
             <div class="social">
               <ul class="social-icons">
+                
                 <li>
                   <a class="facebook" href="#">
                     <i class="fa fa-facebook"></i>
+                    <FaFacebook  className="face" color="white" size='30px'/>
                   </a>
                 </li>
                 <li>
                   <a class="twitter" href="#">
                     <i class="fa fa-twitter"></i>
+                    <FaTwitter  className="twitter" color="white" size='30px'/>
                   </a>
                 </li>
                 <li>
                   <a class="dribbble" href="#">
-                    <i class="fa fa-dribbble"></i>
+                  <FaYoutube className="you" color="white" size='30px' />
                   </a>
                 </li>
                 <li>
                   <a class="linkedin" href="#">
                     <i class="fa fa-linkedin"></i>
+                    <FaInstagramSquare className="insta" color="white" size='30px'/>
                   </a>
                 </li>
               </ul>

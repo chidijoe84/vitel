@@ -47,6 +47,11 @@ const MobileMenu = (props) => {
              animate={animateTo}
              transition={{delay: 0.45}}
              href='/#company' onClick={() => props.isMobile && closeMobileMenu()}>  COMPANY</motion.a>
+              <motion.a 
+             initial={animateFrom}
+             animate={animateTo}
+             transition={{delay: 0.55}}
+             href='/#management' onClick={() => props.isMobile && closeMobileMenu()}>  MANAGEMENT TEAM</motion.a>
             </div>
         }
           </div>
