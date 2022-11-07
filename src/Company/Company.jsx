@@ -5,6 +5,8 @@ import hero from "../assets/back2.png";
 import magic from "../assets/Magic.png";
 import colab2 from "../assets/colab2.jpg";
 import analyse from "../assets/analyse.jpg";
+import heroback from "../assets/hero back.png";
+import IT from "../assets/IT.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Company.css";
@@ -58,11 +60,11 @@ const Company = ({ children }) => {
               investor in all 3 companies).
             </p>
 
-            <img src={IoT} alt="company" />
+            <img src={IT} alt="company" />
           </div>
 
           <div className="company-text tex" data-aos="zoom-in">
-            <img src={IoT} alt="company" />
+            <img src={heroback} alt="company" />
             <p>
               Vitel Wireless Limited has become a renowned company in the
               industry for our expertise and has contributed to several
