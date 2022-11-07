@@ -10,13 +10,13 @@
   right: 0;
   top: 0;
   bottom: 0;
-  margin-top: 200px;
+  margin-top: 120px;
 }
 
 .hero-bolb{
   border-radius:1% 99% 45% 55% / 77% 42% 58% 23%; 
-    height: 460px;
-    width: 460px;
+    height: 400px;
+    width: 400px;
     background: radial-gradient(circle at top,  #0099ff , #030302);
     margin-top: 3%;
     position: absolute;
@@ -38,7 +38,7 @@
 h1 {
     font-family: "Archivo Black", sans-serif;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 2em;
     text-align: left;
     margin-bottom: 0;
     margin-left: 5%;
@@ -50,7 +50,7 @@ h1 {
     font-family: "Archivo Black", sans-serif;
     font-weight: 900;
     color: #0099ff;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: left;
     margin-bottom: 0;
     margin-top: -10px;
@@ -60,7 +60,7 @@ h1 {
   .gsm{
     font-family: "Archivo Black", sans-serif;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: left;
     margin-bottom: 0;
     margin-left: 5%;
@@ -105,9 +105,10 @@ h1 {
     color: #FFFFFF;
    margin-right: 10px;
     border-radius: 10px;
+    border: none;
     cursor: pointer;
-    margin-left: 100px;
-    margin-top: 350px;
+    margin-left: 250px;
+    margin-top: 90px;
     position: absolute;
   }
 
@@ -117,14 +118,13 @@ h1 {
     color: #1a9cf3;
     border: 1px solid #0099ff;
     border-radius: 10px;
-    cursor: pointer;
-    margin-left: 230px;
-    margin-top: 350px;
+   cursor: pointer;
+    margin-left: 370px;
+    margin-top: 90px;
     position: absolute;
-   
   }
   svg{
-   margin-top: 30vh;
+   margin-top: 10vh;
     opacity: 0.2;
   
   }
@@ -154,16 +154,13 @@ h1 {
   
 
   .side-img{
-  
     justify-content: center;
     align-items: center;
-    
     position: absolute;
-    margin-top: 150px;
+    margin-top: 30px;
     margin-left: 47%;
     height: 20rem;
-    width: 55rem;
-
+    width: 42rem;
   }
 
   .connect{
@@ -211,14 +208,16 @@ h1 {
   -moz-text-fill-color: transparent;
     }
     .span1{
-      margin-top: 350px;
-      margin-left: 10px;
+      /* margin-top: 350px;
+      margin-left: 10px; */
+      display: none;
       
     }
 
     .span2{
-      margin-top: 350px;
-      margin-left: 130px;
+      /* margin-top: 350px;
+      margin-left: 130px; */
+      display: none;
       
     }
     h2{

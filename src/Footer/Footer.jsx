@@ -73,7 +73,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div class="social">
+            {/* <div class="social">
               <ul class="social-icons">
                 
                 <li>
@@ -100,7 +100,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

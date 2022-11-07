@@ -4,6 +4,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
   }
   
   .slide {
@@ -86,12 +87,14 @@
     opacity: 1;
     transform: translateX(0);
     transition: all 0.5s ease;
+    margin-top: -10rem;
+    border-radius: 50px;
   }
   
   .arrow {
-    border: 2px solid white;
+    border: 2px solid #000000;
     background-color: transparent;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     height: 2rem;
     width: 2rem;

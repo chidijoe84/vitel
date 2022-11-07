@@ -9,11 +9,11 @@ export const sliderData = [
     {
       image: "https://images.idgesg.net/images/article/2019/02/iot_internet_of_things_lifestyle_connected_appliances_by_elenabs_gettyimages-1018211724_2400x1600-100788445-large.jpg?auto=webp&quality=85,70",
       heading: "Internet of Things",
-      desc: "This is the description of slide two Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+      desc: "with Cloud solutions from Vitel, communications is as simply as Push-to-Talk mobile and desktop devices.",
     },
     {
       image: "https://ei.marketwatch.com/Multimedia/2014/02/26/Photos/MG/MW-BV496_brain__20140226155132_MG.jpg?uuid=d024e7cc-9f27-11e3-9f06-00212803fad6",
-      heading: "Think Out Of The Box",
-      desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+      heading: "Think Out Of Box",
+      desc: "Our radical approach to IoT and VAS integrated solution means that everything we offer are connected",
     },
   ];

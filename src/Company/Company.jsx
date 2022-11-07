@@ -61,7 +61,7 @@ const Company = ({ children }) => {
             <img src={IoT} alt="company" />
           </div>
 
-          <div className="company-text" data-aos="zoom-in">
+          <div className="company-text tex" data-aos="zoom-in">
             <img src={IoT} alt="company" />
             <p>
               Vitel Wireless Limited has become a renowned company in the
@@ -94,7 +94,7 @@ const Company = ({ children }) => {
           <div className="section2">
             <div className="section3" data-aos="flip-right">
               <img src={magic} alt="" />
-              <div>
+              <div className="first1">
                 <h3>Thinking Big and Thinking Outside the Box </h3>
                 <p>
                   When it comes to how you connect and how you should
