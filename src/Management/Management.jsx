@@ -23,7 +23,11 @@ useEffect(()=>{
         <div className='team-pix'><img src={simon} alt='management'/></div>
        <div className='team-pix'><img src={samson} alt='management'/></div>
       </div>
+      <div className="backblob"/>
+      <div className="backblob"/>
+      
     </div>
+    
   )
 }
 

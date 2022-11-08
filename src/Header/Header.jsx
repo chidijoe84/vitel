@@ -15,10 +15,10 @@ const Header = ({open}, props) => {
         </div>
 
         <div className='menu-items'>
-            <div className='logo'><img src={logo} alt='logo'/></div>
+            <div className='logo'><a href='/#hero'><img src={logo} alt='logo'/></a></div>
           <div className='menu'>
             <a href='/'>  SOLUTIONS  </a>
-            <a href='/#company'> | PRODUCTS </a>
+            <a href='/#product'> | PRODUCTS </a>
             <a href='/#company'> | COMPANY</a>
             <a href='/#partners'> | PARTNERS  </a>
             <a href='/#management'> | MANAGEMENT TEAM</a>

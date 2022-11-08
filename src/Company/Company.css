@@ -43,7 +43,7 @@
     /* background-image: url(../assets/footer.png); */
     display: flex;
     flex-direction: row;
-    height: 70%;
+    height: 50%;
     color: #22465e;
     margin-bottom: 50px;
     width: 90%;
@@ -52,6 +52,7 @@
     line-height: 2;
     text-align: justify;
 }
+
 .tex{
   
     width: 90%;
@@ -78,6 +79,8 @@
     font-size: 1.2em;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     margin: 30px;
+    text-align: center;
+    padding-top: 80px;
     border-left: 4px solid #0099ff;
 
     padding-left: 20px;
@@ -88,21 +91,29 @@
     font-size: 1.2em;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     margin: 30px;
+    text-align: center;
+    padding-top: 80px;
     border-right: 4px solid #0099ff;
 
     padding-right: 20px;
 }
 
 .company-text2 img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 20%;
 }
+
+
 
 .company-text img {
     width: 50%;
     height: auto;
 }
 
+.company-text .cloud{
+    width: 40%;
+    height: 30%;
+}
 .text-head {
     text-align: center;
     margin-top: -20px;
@@ -164,7 +175,7 @@
 }
 
 .section3 {
-    width: 28%;
+    width: 20%;
     height: 650px;
     border: none;
    padding-bottom: 10px;
@@ -276,9 +287,10 @@
     }
 
     .com {
-        margin-top: -301px;
+        /* margin-top: -301px;
         width: 200px;
-        height: 200px;
+        height: 200px; */
+        display: none;
     }
 
     .bolb {
