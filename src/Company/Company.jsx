@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import IoT from "../assets/IoT.jpg";
-import think2 from "../assets/think2.jpg";
+//import IoT from "../assets/IoT.jpg";
+import cloud2 from "../assets/cloud2.jpg";
 import hero from "../assets/back2.png";
 import magic from "../assets/Magic.png";
 import colab2 from "../assets/colab2.jpg";
+import colab from "../assets/colab.jpg";
 import analyse from "../assets/analyse.jpg";
 import heroback from "../assets/hero back.png";
 import IT from "../assets/IT.webp";
@@ -36,7 +37,7 @@ const Company = ({ children }) => {
 
                <button onClick={toggleBtn} className='btn'>{isReadMore ? "Read less" : "...Read       more" }</button> */}
 
-            <img src={IoT} alt="company" />
+            <img src={cloud2} alt="company" className="cloud"/>
 
             <p>
               Vitel Wireless focus on vertical market solutions for IoT and VAS
@@ -48,7 +49,7 @@ const Company = ({ children }) => {
             </p>
           </div>
 
-          <div className=" company-text2" data-aos="fade-left">
+          <div className=" company-text2" data-aos="zoom-in">
             <p>
               Since its incorporation, VITEL WIRELESS LIMITED has been active in
               provision of telecommunication services, software development,
@@ -93,7 +94,7 @@ const Company = ({ children }) => {
               OUR <span>PRODUCT</span> <hr />
             </h1>
           </div>
-          <div className="section2">
+          <div className="section2" id="product">
             <div className="section3" data-aos="flip-right">
               <img src={magic} alt="" />
               <div className="first1">

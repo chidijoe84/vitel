@@ -119,9 +119,10 @@ margin-left: 20px;
         background: black;
         position: fixed;
         left: 0%;
-        right: 7px;
+        right: 0;
         top: 0;
         z-index: 1;
+        width: auto;
       
         
     }
@@ -140,10 +141,11 @@ margin-left: 20px;
         background-color: whitesmoke;
         position: fixed;
         left: 0;
-        right: 5px;
+        right: 0;
+        width: auto;
         top: 15px;
         z-index: 1;
-        width: auto;
+        
     }
 
     .disp{
@@ -176,17 +178,23 @@ margin-left: 20px;
       
     }
 
+    .menu2{
+       
+    }
+
      .menu2 a{
         display: flex;
         position: relative;
+       
         font-size: small;
+        
         top: 0;
         z-index: 1;
     }
     .menu2 .Hamburger{
         display: flex;
         position: absolute;
-        right: 25%;
+        left: 300px;
         top: -100%;
         cursor: pointer;
         

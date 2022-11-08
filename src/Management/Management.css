@@ -42,6 +42,31 @@
 .title{
     color: #007bff;
 }
+
+.backblob{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(
+        180deg,
+        rgba(47, 184, 255, 0.42) 31.77%,
+        #5c9df1
+    );
+    mix-blend-mode: color-dodge;
+    animation: move 10s infinite alternate;
+}
+
+@keyframes move {
+    from{
+        transform: translate(-100px, 50px) rotate(-90deg);
+
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+    to{
+        transform: translate(500px, 100px) rotate(-10deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+}
 @media screen and (max-width: 600px) {
     .manage{
         width: 100%;
@@ -67,5 +92,7 @@
     .manage hr{
         margin-left: 130px;
     }
-    
+    .backblob{
+        display: none;
+    }
 }
