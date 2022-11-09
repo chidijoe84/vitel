@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 //import IoT from "../assets/IoT.jpg";
 import cloud2 from "../assets/cloud2.jpg";
-import hero from "../assets/back2.png";
 import magic from "../assets/Magic.png";
 import colab2 from "../assets/colab2.jpg";
-import colab from "../assets/colab.jpg";
 import analyse from "../assets/analyse.jpg";
 import heroback from "../assets/hero back.png";
 import IT from "../assets/IT.webp";

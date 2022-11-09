@@ -1,15 +1,15 @@
 import React from "react";
-import {FaYoutube, FaTwitter, FaFacebook, FaInstagramSquare} from 'react-icons/fa';
+//import {FaYoutube, FaTwitter, FaFacebook, FaInstagramSquare} from 'react-icons/fa';
 import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <footer class="site-footer">
-        <div class="container">
-          <div class="rows">
-            <div class="about">
+      <footer className="site-footer">
+        <div className="container">
+          <div className="rows">
+            <div className="about">
               <h6>About</h6>
-              <p class="text-justify">
+              <p className="text-justify">
                 Virtel Wireless{" "}
                 <i>
                   focus on vertical market solutions for IoT and VAS in Africa{" "}
@@ -22,41 +22,41 @@ const Footer = () => {
               </p>
             </div>
             <div className="main-footer-links">
-              <div class="cat">
+              <div className="cat">
                 <h6>Categories</h6>
-                <ul class="footer-links">
+                <ul className="footer-links">
                   <li>
-                    <a href="#">Sales</a>
+                    <a href="/#hero">Sales</a>
                   </li>
                   <li>
-                    <a href="#">Support 0803777-3444 </a>
+                    <a href="/#hero" >Support 0803777-3444 </a>
                   </li>
                   <li>
-                    <a href="#">Request Quote </a>
+                    <a href="/#hero" >Request Quote </a>
                   </li>
                   <li>
-                    <a href="#">Signup </a>
+                    <a href="/#hero" >Signup </a>
                   </li>
                   <li>
-                    <a href="#">Login</a>
+                    <a href="/#hero">Login</a>
                   </li>
                 </ul>
               </div>
 
-              <div class="Quick">
+              <div className="Quick">
                 <h6>Quick Links</h6>
-                <ul class="footer-links">
+                <ul className="footer-links">
                   <li>
-                    <a href="#">PRODUCTS </a>
+                    <a href="/#product">PRODUCTS </a>
                   </li>
                   <li>
-                    <a href="#">SOLUTIONS </a>
+                    <a href="/#hero">SOLUTIONS </a>
                   </li>
                   <li>
-                    <a href="#">PARTNERS </a>
+                    <a href="/#partner">PARTNERS </a>
                   </li>
                   <li>
-                    <a href="#">COMPANY</a>
+                    <a href="/#company">COMPANY</a>
                   </li>
                 </ul>
               </div>
@@ -64,12 +64,12 @@ const Footer = () => {
           </div>
           <hr />
         </div>
-        <div class="containers">
-          <div class="row">
-            <div class="copy">
-              <p class="copyright-text">
+        <div className="containers">
+          <div className="row">
+            <div className="copy">
+              <p className="copyright-text">
                 Copyright &copy; 2022 All Rights Reserved by{" "}
-                <a href="#">Vitel Wireless</a>.
+                <a href="/#hero">Vitel Wireless</a>.
               </p>
             </div>
 
