@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import { sliderData } from "../../slider-data";
-import "./Slider.css";
+import { useState, useEffect } from 'react';
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
+import { sliderData } from '../../slider-data';
+import './Slider.css';
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,7 +13,6 @@ const Slider = () => {
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
-    
   };
 
   const prevSlide = () => {
@@ -29,10 +28,12 @@ const Slider = () => {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line
     if (autoScroll) {
       auto();
     }
     return () => clearInterval(slideInterval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSlide]);
 
   return (
@@ -42,7 +43,7 @@ const Slider = () => {
       {sliderData.map((slide, index) => {
         return (
           <div
-            className={index === currentSlide ? "slide current" : "slide"}
+            className={index === currentSlide ? 'slide current' : 'slide'}
             key={index}
           >
             {index === currentSlide && (
@@ -52,7 +53,6 @@ const Slider = () => {
                   <h2>{slide.heading}</h2>
                   <p>{slide.desc}</p>
                   <hr />
-                  
                 </div>
               </div>
             )}
