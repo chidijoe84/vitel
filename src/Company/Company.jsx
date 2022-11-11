@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {  useEffect } from "react";
 //import IoT from "../assets/IoT.jpg";
 import cloud2 from "../assets/cloud2.jpg";
 import magic from "../assets/Magic.png";
@@ -10,11 +10,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Company.css";
 const Company = ({ children }) => {
-  const [isReadMore, setIsReadMore] = useState(false);
+  // const [isReadMore, setIsReadMore] = useState(false);
 
-  const toggleBtn = () => {
-    setIsReadMore((prevState) => !prevState);
-  };
+  // const toggleBtn = () => {
+  //   setIsReadMore((prevState) => !prevState);
+  // };
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -22,8 +22,7 @@ const Company = ({ children }) => {
 
   return (
     <div>
-      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 318"><path fill="#0099ff"  d="M0,224L48,208C96,192,192,160,288,176C384,192,480,256,576,288C672,320,768,320,864,288C960,256,1056,192,1152,170.7C1248,149,1344,171,1392,181.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg> */}
-
+     
       <div className="company">
         <div className="section" id="company">
           <div className="com" data-aos="fade-up" />
@@ -31,9 +30,7 @@ const Company = ({ children }) => {
             our <span>Company</span> <hr />
           </h1>
           <div className="company-text" data-aos="fade-right">
-              {/* <p>{isReadMore ? children : children.substr(0, 400)}</p>
-
-               <button onClick={toggleBtn} className='btn'>{isReadMore ? "Read less" : "...Read       more" }</button> */}
+             
 
             <img src={cloud2} alt="company" className="cloud"/>
 

@@ -144,7 +144,7 @@
 } */
 
 .section2 {
-    width: 100%;
+    width: auto;
     z-index: 0;
     background-image: url(../assets/checked.png);
     background-color: #4eb3f7;
@@ -175,10 +175,10 @@
 }
 
 .section3 {
-    width: 20%;
-    height: 650px;
+    width: 22%;
+    height: 665px;
     border: none;
-   padding-bottom: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     z-index: 0;
     margin: 30px;
@@ -192,8 +192,7 @@
 
 .section3 img {
     width: 100%;
-    height: 50%;
-
+    height: 42%;
     border-radius: 10px;
     z-index: 0;
 }
@@ -222,7 +221,93 @@
     margin-left: 67%;
 }
 
-@media screen and (max-width: 400px) {
+
+@media  screen and (max-width: 950px) {
+    .section2 {
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text-head {
+        position: absolute;
+        margin-top: -170px;
+        margin-left: 300px;
+        font-size: 2.5em;
+        
+    }
+
+    .section3 {
+        width: 80%;
+        
+        background-color: white;
+     }
+
+     .company-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6px;
+        margin-top: -80px;
+        width: 100%;
+    }
+
+    .company-text p {
+        font-size: 1.5em;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+    .company-text img {
+       width: 100%;
+       height: 30%;
+    }
+
+    .company-text .cloud{
+        width: 100%;
+        height: 30%;
+    }
+    .company-text2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 6px;
+        margin-top: -80px;
+        width: 100%;
+      
+    }
+
+    .company-text2 img{
+        width: 100%;
+        height: 30%;
+    }
+
+    .company-text2 p{
+        font-size: 1.5em;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+
+    .com {
+        display: none;
+    }
+    
+
+     .bolb {
+        border-radius: 100% 0% 22% 78% / 46% 2% 98% 54%;
+        height: 390px;
+        width: 390px;
+        background: radial-gradient(circle at top, #030302, #0099ff);
+        margin-top: 70%;
+        position: absolute;
+        margin-left: 49%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
     .section2 {
         display: flex;
         flex-direction: column;
@@ -287,9 +372,6 @@
     }
 
     .com {
-        /* margin-top: -301px;
-        width: 200px;
-        height: 200px; */
         display: none;
     }
 
@@ -297,3 +379,5 @@
         display: none;
     }
 }
+
+

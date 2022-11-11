@@ -43,7 +43,17 @@ hr{
    margin-top: 180px;
 }
 
-@media screen and (max-width: 400px) {
+
+@media  screen and (max-width: 950px) {
+    .main-content{
+        display: grid;
+        grid-template-columns: auto auto ;
+       
+        row-gap: -100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .main-content{
         display: grid;
         grid-template-columns: auto auto ;

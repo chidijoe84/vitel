@@ -67,21 +67,35 @@
         border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
     }
 }
+
+
+@media  screen and (max-width: 950px) {
+    .manage-team{
+        display: grid;
+        grid-template-columns: auto auto ;
+       
+        row-gap: -100px;
+    }
+
+    .backblob{
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 600px) {
     .manage{
-        width: 100%;
-        
+        width: auto; 
     }
     .manage-team{
         display: grid;
         grid-template-columns: auto ;
-       
-        width: 100%;
+        justify-content: center;
+        width: auto;
     }
     .team-pix{
-       
-        margin-left: 80px;
-       
+      
     }
    
     .manage h1{
