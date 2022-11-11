@@ -240,9 +240,16 @@
     }
 
     .section3 {
-        width: 80%;
-        
+        width: 89%;
         background-color: white;
+        padding-bottom: 20px;
+       
+     }
+
+     .section3 p{
+        font-size: 1.2em;
+        font-weight: 400;
+        color: rgb(49, 38, 38);
      }
 
      .company-text {
