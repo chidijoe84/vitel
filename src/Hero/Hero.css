@@ -1,4 +1,4 @@
-.main-hero{
+/* .main-hero{
     background-image: url(../assets/hero3.png);
     background-size: cover;
     background-repeat: no-repeat, repeat;
@@ -257,15 +257,13 @@ h1 {
   -moz-text-fill-color: transparent;
     }
     .span1{
-      /* margin-top: 350px;
-      margin-left: 10px; */
+      
       display: none;
       
     }
 
     .span2{
-      /* margin-top: 350px;
-      margin-left: 130px; */
+      
       display: none;
       
     }
@@ -299,4 +297,356 @@ h1 {
 
     
 }
+ */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;600&family=Roboto:wght@700&display=swap');
+
+* {}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #F6F7FA;
+  overflow-x: hidden;
+}
+
+.hero-sectionTxt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  background-image: url('../assets/3dwall.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content_hero {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transform: translate(0%, -50%);
+}
+
+.hero-sectionTxt .content_hero .tourTech {
+  /* font-size: 3em; */
+  margin-bottom: 20px;
+  /* background-color: antiquewhite; */
+  /* color: black; */
+  font-family: bignoodletitling;
+  font-size: 50px;
+}
+
+.limited {
+  color: #DAA520;
+  background-clip: text;
+  color: transparent;
+  /* Make text color transparent */
+  background-image: linear-gradient(to right, #DAA520, #CBCBCB);
+}
+
+.hero-sectionTxt .content_hero p {
+  font-size: 1em;
+  margin-bottom: 40px;
+  /* color: black; */
+  /* background-color: bisque; */
+  line-height: 1.5em;
+  text-align: center;
+  width: 30%;
+  /* text-transform: lowercase; */
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1em;
+  text-decoration: none;
+  /* background-color: #34a4eb; */
+  border: 2px solid RGB(220, 171, 48);
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  /* background-color: #1d7fb7; */
+  border: 1px solid RGB(220, 171, 48);
+}
+
+.vertical-line {
+  border-left: 2px solid #DAA520;
+  /* Adjust the color and thickness as needed */
+  height: 100px;
+  position: absolute;
+  top: 100%;
+}
+
+.hero-background {
+  width: 100%;
+  height: 500px;
+  background-color: transparent;
+  /* border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%; */
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  /* transform: rotate(180deg); */
+  position: relative;
+  box-shadow: 5px 0 10px 15px rgba(8, 8, 8, 0.9);
+  transform: scaleX(1.2);
+  overflow: hidden;
+  background-color: #024B7B;
+
+}
+
+
+
+.hero-background:after {
+  content: '';
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  overflow: hidden;
+  /* opacity: 0.9; */
+  top: 0;
+  bottom: 20px;
+  background-color: #024B7B;
+
+
+}
+
+.heroBackImageSecon {
+  position: absolute;
+  z-index: 999;
+  top: 6%;
+  left: 65%;
+  height: 80%;
+
+}
+
+
+.heroBackImage {
+  transform: rotate(50deg);
+}
+
+.parentDivArrow {
+  width: 50px;
+
+  height: 50px;
+  position: absolute;
+  top: 63.5%;
+  z-index: 99;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.divArrow {
+  width: 30px;
+
+  height: 30px;
+
+  border-radius: 50%;
+  border: 2px solid #DAA520;
+  color: white;
+  font-size: 1.5em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 37, 37);
+}
+
+.services {
+  /* background-color: #1d7fb7; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 37%;
+  /* margin-top: 20px; */
+  height: 150px;
+}
+
+.parentServices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+
+}
+
+.sectionName {
+  font-size: 30px;
+  font-family: bignoodletitling;
+  font-weight: 700;
+}
+
+.ogaBoizMain a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 150px;
+  font-size: 0.9em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+
+}
+
+.ogaBoiz {
+  width: 90px;
+
+  height: 90px;
+
+  border-radius: 50%;
+  border: 2px solid #DAA520;
+  padding: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: antiquewhite; */
+}
+
+.ogaBoiz img {
+  width: 90px;
+
+  height: 90px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1650px){
+.heroBackImage {
+    transform: rotate(65deg);
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .hero-sectionTxt .content_hero p {
+    width: 40%;
+  }
+
+  .heroBackImage {
+    transform: rotate(70deg);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hero-sectionTxt .content_hero p {
+    width: 50%;
+  }
+
+  .heroBackImage {
+    transform: rotate(75deg);
+  }
+
+  .heroBackImageSecon {
+
+    left: 60%;
+
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .heroBackImage {
+    display: none;
+  }
+
+  .heroBackImageSecon {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  .hero-sectionTxt .content_hero p {
+    width: 57%;
+  }
+
+
+
+  .services {
+
+    width: 100%;
+
+  }
+
+  .ogaBoiz {
+    width: 55px;
+
+    height: 55px;
+    font-size: 0.9em;
+  }
+
+  .ogaBoiz img {
+    width: 55px;
+
+    height: 55px;
+    border-radius: 50%;
+  }
+
+
+
+  .parentDivArrow {
+
+    top: 63%;
+
+  }
+
+  .hero-sectionTxt .content_hero .tourTech {
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-sectionTxt .content_hero p {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .ogaBoizMain {
+    font-size: 0.8em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hero-sectionTxt .content_hero .tourTech {
+    margin-bottom: 10px;
+    font-size: 25px;
+    /* background-color: aqua; */
+  }
+
+  .hero-sectionTxt .content_hero p {
+    font-size: 0.8em;
+    font-weight: 100;
+    width: 95%;
+  }
+
+    .hero-sectionTxt {
+      height: 98vh;
+    }
+        .parentDivArrow {
+          top: 66%;
+        }
+}

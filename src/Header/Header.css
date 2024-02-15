@@ -1,4 +1,4 @@
-.top-nav{
+.top-nav {
     display: flex;
     justify-content: center;
     background: black;
@@ -7,11 +7,11 @@
     right: 0%;
     top: 0;
     z-index: 1;
-    width: auto;
-    
+    width: 100%;
+
 }
 
-.top-nav a{
+.top-nav a {
     font-family: "Archivo Black", sans-serif;
     display: flex;
     justify-content: flex-end;
@@ -22,39 +22,46 @@
     font-size: small;
 }
 
-.menu-items{
+.menu-items {
     display: flex;
     flex-direction: row;
-    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #024B7B;
     position: fixed;
     left: 0;
     right: 0;
-    top: 17px;
+    top: 15px;
     z-index: 1;
-    width: auto;
-  
+    width: 100%;
+    overflow: hidden;
+
 }
-.menu{
+
+.menu {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     text-decoration: none;
     margin-top: 15px;
     padding-bottom: 20px;
+    padding-right: 20px;
     margin-left: 40%;
-    
-    height: 30px;
-   
-  
-    
+    /* background-color: red; */
+    /* height: 35px; */
+    /* width: 50%; */
+    /* flex: 50%; */
+    /* position: relative; */
 }
 
-.menu a{
+
+
+.menu a {
     font-family: "Archivo Black", sans-serif;
     font-size: small;
     font-weight: 900;
     text-decoration: none;
-    color: rgb(49, 38, 38);
+    color: white;
     display: flex;
     flex-direction: row;
     margin-top: 30px;
@@ -62,85 +69,119 @@
     padding-left: 20px;
     position: relative;
 }
-.menu a:hover{
-    border-bottom: 5px solid #009bff;
+
+.menu a:hover {
+    border-bottom: 5px solid #DAA520;
     margin-left: 20px;
 }
-.logo{
-    position: absolute;
-    width: 10%;
-    height: 100%;
-    
-    
+
+.logo {
+    /* position: absolute; */
+    width: 15%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 10%; */
+    background-color: whitesmoke;
+
 }
 
-.menu2 a{
+.logo img {
+    width: 60%;
+    height: 60%;
+    margin-left: 20px;
+
+}
+
+.menu2 a {
     display: none;
     font-size: 1.5em;
-    width: 300px;
+    /* width: 300px; */
     height: 15px;
     text-decoration: none;
     color: rgb(49, 38, 38);
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     padding-left: 20px;
     position: relative;
     top: 30px;
-   
+
 }
 
-.disp{
+/* .dispMobile {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
+    top: 100%;
     margin-top: 65px;
     margin-left: -546px;
-    height: 20vh;
+    z-index: 999;
+    height: 100vh;
     width: 78em;
-}
+} */
 
-.menu2 .Hamburger{
+.menu2 .Hamburger {
     display: none;
 }
 
-.logo img{
-width: 70%;
-height: 100%;
-margin-left: 20px;
 
+@media screen and (max-width: 1500px) {
+    .menu {
+        width: 90%;
+        /* background-color: #DAA520; */
+
+    }
 }
 
-@media screen and (max-width: 950px) {
-    .menu{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        margin-top: 15px;
-        padding-bottom: 20px;
-        margin-left: 20%;
-        height: 30px;
+@media screen and (max-width: 1300px) {
+    .menu {
+
+
+        width: 90%;
+        /* background-color: #DAA520; */
+
     }
 
-    .menu a{
+    
+}
+
+
+@media screen and (max-width: 950px) {
+    .menu {
+        padding-bottom: 20px;
+        /* background-color: red; */
+        width: 40%;
+    }
+
+    .menu a {
         font-family: "Archivo Black", sans-serif;
-        font-size:0.73em;
+        font-size: 0.73em;
         font-weight: 900;
         text-decoration: none;
-        color: rgb(49, 38, 38);
-        display: flex;
-        flex-direction: row;
-        margin-top: 30px;
-        margin-left: 10px;
-        padding-left: 20px;
-        position: relative;
+        padding-left: 10px;
+       
     }
+        .logo {
+            background: whitesmoke;
+            width: 20%;
+            height: 20%;
+        }
+    
+        .logo a img {
+            width: 100%;
+            height: 100%;
+            margin-left: 0px;
+    
+        }
 }
 
 
 
 @media screen and (max-width: 600px) {
-    .top-nav{
+
+
+    .top-nav {
         display: flex;
         justify-content: center;
         background: black;
@@ -150,10 +191,11 @@ margin-left: 20px;
         top: 0;
         z-index: 1;
         width: auto;
-      
-        
+
+
     }
-    .top-nav a{
+
+    .top-nav a {
         display: flex;
         justify-content: flex-start;
         color: whitesmoke;
@@ -162,72 +204,93 @@ margin-left: 20px;
         margin-right: 2px;
         font-size: 8px;
     }
-    .menu-items{
+
+    .menu-items {
         display: flex;
         flex-direction: row;
-        background-color: whitesmoke;
+        background-color: #024B7B;
         position: fixed;
         left: 0;
         right: 0;
         width: auto;
         top: 15px;
         z-index: 1;
-        
+
     }
 
-    .disp{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        border-top: 1px solid blue;
-       width: auto;
-       right:20px;
-      
-       height: auto;
-        background-color: whitesmoke;
-     
-    }
-    .disp a{
+        .menu2 .dispMobile {
+            
+            
+            position: fixed;
+            border-top: 1px solid whitesmoke;
+            width: 90%;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            /* top: 70px; */
+            top: 75px;
+            /* z-index: 999; */
+            height: 30vh;
+            background-color: whitesmoke;
+    
+        }
+
+
+
+       .dispMobile a {
         padding-top: 2px;
-        position: absolute;
-        margin-left: 50px;
+        /* position: absolute; */
+        margin-left: -50px;
+        width: 90%;
+        /* background-color: #DAA520; */
     }
-    .menu a{
-       display: none;
+
+    .menu {
+        display: none;
     }
-    .logo{
+
+    .logo {
         background: whitesmoke;
-        width: 30%;
+        width: 20%;
+        height: 20%;
     }
-    .logo img{
+
+    .logo a img {
         width: 100%;
         height: 100%;
-       margin-left: 0px;
-      
+        margin-left: 0px;
+
     }
 
-    .menu2{
-       
+    .menu2 {
+        z-index: 899;
     }
 
-     .menu2 a{
+    .menu2 a {
         display: flex;
         position: relative;
-       left: 50px;
+        left: 50px;
         font-size: small;
-        
+
         top: 0;
-        z-index: 1;
+        z-index: 1000;
     }
-    .menu2 .Hamburger{
+
+    
+
+    .menu2 .Hamburger {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        color: whitesmoke;
         position: absolute;
-        left: 335px;
-        top: -100%;
+        left: 80%;
+        right: 0;
+        top: 10%;
+        bottom: 0;
         cursor: pointer;
-        
+        /* background-color: white; */
     }
-    
-    
+
+
 }
